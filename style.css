@@ -1,7 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 10px;
-    border: 3px solid;
+    border: 5px solid;
   }
   
 .nav-wrap {
@@ -121,6 +121,7 @@ body {
 
  .bordertrial {
     margin: 10px 10px 250px 10px;
+
     
 } 
  
