@@ -89,10 +89,16 @@ body {
     padding: 30px;
 }
 
+.heading_styles p {
+  font-size: 20px;
+}
+
 .second-text{
     text-align: center;
     padding: 30px;
     color: teal
+}
 
-
+.second-text p {
+  font-size: 20px;
 }
