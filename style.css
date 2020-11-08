@@ -19,5 +19,7 @@ body {
 }
 
 .nav-link-wrap {
-  
+  height: 10px;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
 }
