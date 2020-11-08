@@ -12,6 +12,7 @@ body {
 .main-title {
   text-align: center;
   text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .nav-wrap > .left-side > div {
@@ -19,24 +20,25 @@ body {
 }
 
 .nav-link-wrap {
-  height: 10px;
+  height: 22px;
   border-bottom: 1px solid transparent;
   transition: 0.5s;
 }
 
-/* Banner image */
-.img-container {
-  position: relative;
-  text-align: center;
+.nav-link-wrap a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
 }
 
-/* Banner text */
-.center-title-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
+.nav-link-wrap:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrap a:hover {
+  color: black;
+}
+
 .image-wrap img {
     
 
