@@ -1,6 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 10px;
+    border: 1px solid;
   }
   
 .nav-wrap {
@@ -90,7 +91,7 @@ body {
 }
 
 .heading_styles p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .second-text{
@@ -106,4 +107,13 @@ body {
   right: 750px;
   
   padding: 10px;
+}
+
+
+
+.second-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+
 }
