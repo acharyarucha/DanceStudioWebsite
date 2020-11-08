@@ -3,3 +3,17 @@ body {
     margin: 0px;
   }
   
+.nav-wrap {
+  display: flex;
+  /* justify content here if we need something on the right side */
+  padding: 0px 30px;
+}
+
+.main-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-wrap > .left-side > div {
+  margin-right: 40px;
+}
