@@ -77,6 +77,7 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 /* change color when hovered over */
