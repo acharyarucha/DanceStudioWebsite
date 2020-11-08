@@ -37,4 +37,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
+.image-wrap img {
+    
+
+}
+
+
+.heading_styles {
+    text-align: center;
+    padding: 30px;
 }
