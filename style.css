@@ -9,6 +9,7 @@ body {
   padding: 0px 30px;
 }
 
+/* big title at the top */
 .main-title {
   text-align: center;
   text-transform: uppercase;
@@ -19,6 +20,7 @@ body {
   margin-right: 40px;
 }
 
+/* change color when hovered over */
 .nav-link-wrap {
   height: 22px;
   border-bottom: 1px solid transparent;
@@ -43,9 +45,40 @@ body {
   padding: 20px 0px;
 }
 
-.image-wrap img {
-    
+/* --- Stuff for image with button --- */
 
+/* container for button position */
+.img-form-container {
+  position: relative;
+  width: 97%;
+  padding: 20px;
+}
+
+/* make image responsive */
+.img-form-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* button styling */
+.img-form-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: slategray;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* change color when hovered over */
+.img-form-container .btn:hover {
+  background-color: teal;
 }
 
 .heading_styles {
